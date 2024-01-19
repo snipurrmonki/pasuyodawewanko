@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kanit&family=Lemon&family=Pacifico&family=Titan+One&family=Ultra&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 120px;
+    background: #b59b7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ }
+nav a{
+    font-size: 20px;
+    color: #fef4db;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    font-family: "Lemon",sans-serif;
+}
+
+nav a:hover,
+nav a.acive{
+    color: #d62d04;
+}
+
+.prf{
+    margin-left: 300px;
+    border: 20px solid #fcbdb4;
+    border-radius: 30px;
+    box-shadow: 10px 20px 30px rgb(253, 227, 211, 0.5);
+}
+.home{
+    background-color:rgb(243, 227, 211);
+ }
+
+.profile{
+    background-color: #efcead;
+}
+
+.album{
+    background-color: #e0b78d;
+}
+
+.Bd{
+    margin-left: 30px;
+}
+
+.twotext{
+    font-family: "lemon",sans-serif;
+    color: #d62d04;
+    font-size: 30px;
+    justify-items: center;
+    margin-bottom: 500px;
+}
+
+.bio{
+    font-family: "Gloria Hallelujah", cursive;
+    color: #6b5c49;
+    font-size: 17px;
+    margin-right: 200px;
+}
+
+.LEFTMSG{
+    margin-left: 100px;
+    font-size: 100px;
+    font-family: "titan one",sans-serif;
+    color: #d62d04;
+}
+.photo{
+    align-items: center;
+    justify-content: center;
+    margin-left:250px;
+    margin-right: 250px;
+    border: 15px solid #fcbdb4;
+    border-radius: 15px;
+}
